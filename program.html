@@ -27,7 +27,69 @@
     <section class="hero">
       <h2>Selamat Datang di SD PLUS MARHAMAH</h2>
       <p>Kami mendidik generasi masa depan dengan nilai-nilai Islam, pengetahuan, dan karakter yang kuat.</p>
-      <img src="https://via.placeholder.com/800x400?text=Foto+Sekolah" alt="Foto Sekolah">
+      </section>
+        <section>
+          <h2>Menu Dropdown</h2>
+          <nav class="dropdown-menu">
+            <ul>
+              <li>
+                <a href="#">Ekstrakurikuler ▼</a>
+                <ul class="submenu">
+                  <li><a href="#">Olimpiade IPA/a></li>
+                  <li><a href="#">Olimpiade Matematika/a></li>
+                  <li><a href="#">Pramuka</a></li>
+                  <li><a href="#">Tahfidz</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Prestasi</a></li>
+              <li><a href="#">Kontak</a></li>
+            </ul>
+          </nav>
+        </section>
+        
+        <style>
+          .dropdown-menu ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+          }
+        
+          .dropdown-menu > ul > li {
+            position: relative;
+            display: inline-block;
+            margin-right: 20px;
+          }
+        
+          .dropdown-menu a {
+            text-decoration: none;
+            padding: 8px 12px;
+            display: block;
+            color: #333;
+            font-weight: bold;
+          }
+        
+          .dropdown-menu .submenu {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            z-index: 1;
+          }
+        
+          .dropdown-menu .submenu li {
+            display: block;
+            margin: 0;
+          }
+        
+          .dropdown-menu li:hover > .submenu {
+            display: block;
+          }
+        
+          .dropdown-menu .submenu a:hover {
+            background-color: #ddd;
+          }
+        </style>
     </section>
   </main>
   <footer>
