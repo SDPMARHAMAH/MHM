@@ -29,6 +29,50 @@
       <p>Kami mendidik generasi masa depan dengan nilai-nilai Islam, pengetahuan, dan karakter yang kuat.</p>
       <img src="https://via.placeholder.com/800x400?text=Foto+Sekolah" alt="Foto Sekolah">
     </section>
+    <!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Absensi Guru</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📘 Sistem Absensi Guru</h1>
+    <form id="absenForm">
+      <label for="nama">Nama Guru:</label>
+      <input type="text" id="nama" required placeholder="Masukkan nama guru">
+
+      <label for="status">Status Kehadiran:</label>
+      <select id="status" required>
+        <option value="">-- Pilih --</option>
+        <option value="Hadir">Hadir</option>
+        <option value="Izin">Izin</option>
+        <option value="Sakit">Sakit</option>
+      </select>
+
+      <button type="submit">Kirim Absensi</button>
+    </form>
+
+    <h2>📅 Rekap Absensi Hari Ini</h2>
+    <table id="tabelAbsensi">
+      <thead>
+        <tr>
+          <th>Nama</th>
+          <th>Status</th>
+          <th>Waktu</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+    
   </main>
   <footer>
     <div class="container">
